@@ -195,20 +195,6 @@ python manage.py runserver
 ```
 Visit **[http://127.0.0.1:8000](http://127.0.0.1:8000)** in your browser! 🎉
 
-### Running with Docker
-
-Prerequisite: Docker Desktop with Docker Compose.
-
-Build and start the application:
-
-```bash
-docker compose up --build
-```
-
-The application is available at **[http://127.0.0.1:8000](http://127.0.0.1:8000)**. Django migrations run automatically when the container starts. SQLite data and uploaded media are stored in Docker-managed volumes.
-
-Stop the container with `Ctrl+C`, or run `docker compose down`. To remove the persisted database and uploaded files as well, use `docker compose down -v`.
-
 ---
 
 ## 🧪 Running Tests & Quality Assurance
@@ -302,4 +288,3 @@ PMS/
 ## 📄 License & Academic Credit
 
 Developed for **Software Quality Engineering (Semester 5)** at **Vrije Universiteit Brussel (VUB)**.
-# SQE-PMS

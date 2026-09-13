@@ -1,0 +1,4 @@
+python manage.py shell -c "from accounts.models import User, Role; u = User.objects.get(username='admin'); u.is_confirmed = True; u.role = Role.ADMINISTRATOR; u.save(); print('User', u.username, 'is now activated as', u.role)"
+
+Username: admin
+Password: admin
